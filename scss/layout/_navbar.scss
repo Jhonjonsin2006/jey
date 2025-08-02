@@ -1,0 +1,105 @@
+#navbar{
+    background-image: url("../../aasets/imges/background\ 1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    .navbar-parag {
+            text-align: center;
+            color: white;
+            font-size: 36px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+    .navbar-cards{
+        display: grid;
+        grid-template-columns: repeat();
+        @media (max-width:750px) {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                align-items: center;
+            }
+
+
+        .navbar-cards_card_green{
+            display: flex;
+                justify-content: space-between;
+                align-items: center;
+                @media (max-width:600px) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                p{
+                        font-size: 16px;
+                        color: rgb(255, 255, 255);
+                        text-align: center;
+                        @media (max-width:430px) {
+                            font-size: 12px;
+                        }
+                    }
+            .green {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+            
+                    .green-img {
+                        max-width: 45px;
+                        background-color: rgb(7, 211, 24);
+                        max-height: 45px;
+                        box-shadow: 4px 2px 25px rgb(22, 255, 1);
+                        cursor: pointer;
+            
+                        img {
+                            max-width: 36px;
+                            max-height: 36px
+                        }
+                    }
+                }
+        }
+
+        .navbar-cards_card_yellow{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            @media (max-width:600px) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 40px;
+                }
+            .yellow { 
+                display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    .yellow-img{
+                        max-width: 45px;
+                        background-color: rgb(200, 250, 21);
+                        max-height: 45px;
+                        box-shadow: 4px 2px 25px yellow;
+                        cursor: pointer;
+                        
+                        img {
+                                max-width: 36px;
+                                max-height: 36px; 
+                    } 
+                    }
+                p{
+                    font-size: 16px;
+                    color: white;
+                    text-align: center;
+                    @media (max-width:430px) {
+                            font-size: 12px;
+                        }
+                }                         
+            }
+            
+        }
+
+    }
+
+}
