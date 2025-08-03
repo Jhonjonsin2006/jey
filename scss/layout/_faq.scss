@@ -1,0 +1,63 @@
+#faq{
+    background-image: url(../../aasets/imges/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: end;
+    padding: 90px 0;
+    .faq-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        @media (max-width:830px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .faq-main_about{
+            max-width: 350px;
+            width: 100%;
+
+            button{
+                max-width: 330px;
+                width: 100%;
+                border: none;
+                background-color: rgba(0, 0, 0, 0.1);
+                margin-top: 30px;
+                padding: 20px 30px;
+                color: rgb(128, 122, 122);
+                &:hover{
+                    background-color: rgba(0, 0, 0, 0.2);
+                }
+            }
+
+            form input{
+                max-width: 330px;
+                border: none;
+                background-color: transparent;
+                width: 100%;
+                margin-top: 30px;
+                padding: 20px 30px;
+                color: black;
+                font-size: 17px;
+                
+            }
+        }
+
+        .faq-main_gap{
+            max-width: 740px;
+            width: 100%;
+            p{
+                color: grey;
+                margin-top: 30px;
+            }
+            .faq-main_title{
+                font-size: 36px;
+                color: white;
+                @media (max-width:500px) {
+                        font-size: 26px;
+                    }
+            }
+        }
+    }
+}

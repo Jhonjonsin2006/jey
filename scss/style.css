@@ -365,4 +365,218 @@ h1 {
   #navbar .navbar-cards .navbar-cards_card_yellow .yellow p {
     font-size: 12px;
   }
+}
+
+#about {
+  background-image: url(../../aasets/imges/background3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+#about .about-card .about-card-p {
+  text-align: center;
+  font-size: 46px;
+  color: rgb(43, 40, 40);
+}
+@media (max-width: 600px) {
+  #about .about-card .about-card-p {
+    font-size: 32px;
+  }
+}
+
+.about-bg {
+  max-width: 1000px;
+  max-height: 900px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 65px;
+  padding: 60px 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cantrol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width: 1000px) {
+  .cantrol {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.cantrol .about-info {
+  max-width: 400px;
+}
+@media (max-width: 1000px) {
+  .cantrol .about-info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.cantrol .about-info .about-info_gap {
+  color: rgb(51, 51, 51);
+}
+.cantrol .about-info .about-info_title {
+  color: white;
+  font-size: 22px;
+  margin-top: 40px;
+}
+.cantrol .about-info .about-info_sentence {
+  margin-top: 40px;
+  line-height: 25px;
+}
+.cantrol .about-info p {
+  color: white;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.cantrol .about-cantrol_img {
+  max-width: 308px;
+  width: 100%;
+}
+.cantrol .about-cantrol_img .main-img {
+  max-width: 308px;
+  width: 100%;
+}
+@media (max-width: 1000) {
+  .cantrol .about-cantrol_img {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.cantrol .about-cantrol_img .about-arrow {
+  padding-left: 90px;
+}
+@media (max-width: 560px) {
+  .cantrol .about-cantrol_img .about-arrow {
+    display: none;
+  }
+}
+
+#sell {
+  background-image: url("../../aasets/imges/background for car.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px 0;
+}
+#sell .sell-main .sell-main_title {
+  font-size: 46px;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  #sell .sell-main .sell-main_title {
+    font-size: 34px;
+  }
+}
+
+.sell-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+}
+@media (max-width: 1125px) {
+  .sell-cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.sell-cards .sell-card {
+  max-width: 600px;
+  width: 100%;
+}
+.sell-cards .sell-card .sell-card_soushel {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  max-width: 418px;
+  width: 100%;
+}
+.sell-cards .sell-card .sell-card_soushel a img {
+  max-width: 418px;
+  width: 100%;
+}
+.sell-cards .sell-card .sell-card_img_p {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.sell-cards .sell-card .sell-card_img_p p {
+  color: white;
+}
+.sell-cards .img-audi {
+  max-width: 600px;
+  width: 100%;
+}
+
+#faq {
+  background-image: url(../../aasets/imges/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: end;
+  padding: 90px 0;
+}
+#faq .faq-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+@media (max-width: 830px) {
+  #faq .faq-main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#faq .faq-main .faq-main_about {
+  max-width: 350px;
+  width: 100%;
+}
+#faq .faq-main .faq-main_about button {
+  max-width: 330px;
+  width: 100%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  padding: 20px 30px;
+  color: rgb(128, 122, 122);
+}
+#faq .faq-main .faq-main_about button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#faq .faq-main .faq-main_about form input {
+  max-width: 330px;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  margin-top: 30px;
+  padding: 20px 30px;
+  color: black;
+  font-size: 17px;
+}
+#faq .faq-main .faq-main_gap {
+  max-width: 740px;
+  width: 100%;
+}
+#faq .faq-main .faq-main_gap p {
+  color: grey;
+  margin-top: 30px;
+}
+#faq .faq-main .faq-main_gap .faq-main_title {
+  font-size: 36px;
+  color: white;
+}
+@media (max-width: 500px) {
+  #faq .faq-main .faq-main_gap .faq-main_title {
+    font-size: 26px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,58 @@
+#sell{
+    background-image: url("../../aasets/imges/background\ for\ car.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+    .sell-main{
+        .sell-main_title{
+            font-size: 46px;
+            color: white;
+            text-align: center;
+            @media (max-width:600px) {
+                    font-size: 34px;   }
+        }
+    }
+}
+
+.sell-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 90px;
+    @media (max-width:1125px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sell-card{
+        max-width: 600px;
+        width: 100%;
+        .sell-card_soushel{
+            margin-top: 30px;
+            display: flex;
+            gap: 30px;
+            max-width: 418px;
+            width: 100%;
+            a img{
+                max-width: 418px;
+                width: 100%;
+            }
+        }
+        .sell-card_img_p{
+            padding-top: 20px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            p{
+                color: white;
+
+            }
+        }
+    }
+
+    .img-audi{
+        max-width: 600px;
+        width: 100%;
+    }
+}
